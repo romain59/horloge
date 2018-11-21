@@ -1,0 +1,72 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.container {
+    text-align: center;
+    margin-top: 3%;
+}
+
+#horloge {
+    position: relative;
+    margin-left: 29%;
+}
+
+#flecheheure {
+
+    position: absolute;
+    background-color: black;
+    border-radius: 5px;
+    width: 10px;
+    height: 170px;
+    right: 787px;
+    top: 183px;
+    transform-origin: bottom;
+
+}
+
+#flecheminute {
+    position: absolute;
+    background-color: black;
+    border-radius: 5px;
+    width: 10px;
+    height: 120px;
+    right: 787px;
+    top: 233px;
+    transform-origin: bottom;
+}
+
+#flecheseconde {
+    position: absolute;
+    background-color: red;
+    border-radius: 5px;
+    width: 5px;
+    height: 100px;
+    right: 789px;
+    top: 253px;
+    transform-origin: bottom;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+button:hover {
+    color: #90CAF9;
+}
+
+input {
+    width: 100px;
+    height: 23px;
+    border-radius: 5px;
+}
+
+
